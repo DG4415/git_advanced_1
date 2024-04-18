@@ -8,6 +8,12 @@ Write your code in this editor and press "Run" button to execute it.
 from typing import List
 
 def even_list(int_list: List[int]) -> List[int]:    
+    even_int_list = []
+    for num in int_list:
+        if num % 2 == 0:
+            even_int_list.append(num)
+    return even_int_list
+        
 
     #TODO: Implement even_list    
  
